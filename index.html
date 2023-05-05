@@ -188,6 +188,30 @@
           100 data samples per person in the source location and 50 data
           samples per person in each of the target locations on any given
           day</p>
+        <p>Texas Instruments (TI) IWR1642EVM boost board interfaced with a DCA1000EVM board to collect
+          the raw mmWave radar signal. The radar system consists of two transmitting antennas, four
+          receiving antennas, and 120° view of the azimuth plane. The radar system supports up to a 4Ghz
+          bandwidth operating on 77 GHz to 81 GHz. To configure FMCW wave parameters such as chirp
+          width, repetition time, and chirp slope from our radar device, we use a Dell Latitude 7480 laptop
+          with TI mmWave studio software as a control system.</p>
+        <p>
+          The walking dataset is collected from four distinct locations such as laboratory, conference room,
+          server room, and office. We recruit ten volunteers to walk in his/her natural ways. Each participant
+          either walks toward or away from the radar. Data is preprocessed into 50 samples of five different
+          days at each location, a total of 2500 samples (10 subjects × 50 samples × 5 days), except for the
+          laboratory location, we collect additional data for another five more days (total of ten different days)
+          in order to perform temporal domain shift experiments for a different time in the same location.
+          We preprocess the data into 256×256×1 spectrogram and standardized values between -1 and 1.
+          Laboratory location data is used as source data and the other location data (i.e. conference room,
+          server room, and office) is referred to as target data. For the spatial domain drift experiment, day 1
+          to day 3 samples are used as a training set for all source and target locations. The rest of the data is
+          used for testing. For the temporal domain drift experiment, we employ 1 to 3 days of laboratory
+          location as source data and the next consecutive days of laboratory location as target data. For
+          example, considering the temporal 2-day case, the first and the second-day data of laboratory
+          location is a source domain, the third and the fourth-day data is a target domain, and the fifth to
+          the tenth-day data is utilized as a test set.
+
+        </p>
       </div>
     </div>
 
