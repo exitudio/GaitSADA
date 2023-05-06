@@ -1,5 +1,5 @@
 # GaitSADA
-This repository contains the PyTorch code for:
+This repository contains the code for:
 __GaitSADA: Self-Aligned Domain Adaptation for mmWave Gait Recognition__
 The paper submitted to [IEEE MASS 2023](https://cis.temple.edu/ieeemass2023/index.html)
 
