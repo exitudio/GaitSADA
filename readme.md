@@ -100,7 +100,7 @@ If you have any question feel free to contact me at exitudio@gmail.com or epinyo
 
 https://ekkasit.com
 
-## <a name="CitingGaitMixer"></a>Citing GaitMixer
+## <a name="GaitSADA">Citing GaitSADA</a>
 If you find our work useful in your research, please consider citing:
 
 ```
