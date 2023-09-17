@@ -7,7 +7,9 @@ The paper submitted to [IEEE MASS 2023](https://cis.temple.edu/ieeemass2023/inde
 
 ![overall](assets/overall.png)
 Please visit our [webpage](https://exitudio.github.io/GaitSADA) for more detail
-
+## News
+📢 [2023/09/25] Presentation at IEEE MASS 2023 (Toronto, Canada) in Session 1A: AI/ML based Smart Design 1 (9:55 - 11:05).  
+📢 [2023/06/26] Paper accepted to IEEE MASS 2023.
 ## install
 ```
 pip install tensorflow scikit-learn matplotlib sklearn h5py PyYAML numpy tqdm
