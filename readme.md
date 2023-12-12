@@ -98,7 +98,6 @@ Result of training on 1 to 3 days on the data from laboratory location (source d
 GaitSADA itself is released under the MIT License.
 
 ---
-If you have any question feel free to contact me at exitudio@gmail.com or epinyoan@uncc.edu
 
 https://ekkasit.com
 
